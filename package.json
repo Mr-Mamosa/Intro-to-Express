@@ -1,0 +1,14 @@
+{
+  "name": "Week2",
+  "version": "0.0.1",
+  "description": "This is about the Java or Type Script",
+  "main": "index.js",
+  "author": "Adnan Khan",
+  "license": "Genuine",
+  "start":"node index.js",
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  },
+  "type": "ES6"
+}
+
