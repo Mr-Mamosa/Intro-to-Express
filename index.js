@@ -16,7 +16,7 @@ server.listen(port, hostname, () => {
 });
 function displayName(res) {
     fs_1.default.readFile("index.html", (err, data) => {
-        if (err) {
+        if (err) {``
             res.writeHead(404);
             res.end("ERROR: 404 - Page Not Found");
             console.log("Error");
