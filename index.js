@@ -13,7 +13,7 @@ app_1.default.set('port', port);
 let server = http_1.default.createServer(app_1.default);
 server.listen(port);
 server.on('error', onError);
-server.on('listening', onListening);
+server.on('listening', onListening);w
 function normalizePort(val) {
     let port = parseInt(val, 10);
     if (isNaN(port)) {

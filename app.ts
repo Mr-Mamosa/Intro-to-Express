@@ -4,13 +4,12 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
-import indexRouter from './routes/index.js';
-import usersRouter from './routes/users.js';
-
+import indexRouter from './routes/index ';
+  
 
 
 module.exports = app; // If using CommonJS
-let app = express();
+const app = express();
 export default app;
 
 // View engine setup
@@ -24,7 +23,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 // Catch 404 and forward to error handler
 app.use(function (req, res, next) {
