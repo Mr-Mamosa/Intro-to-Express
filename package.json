@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
-    "build": "grunt build"yarn
+    "start": "node dist/index.js",
+    "build": "grunt build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
