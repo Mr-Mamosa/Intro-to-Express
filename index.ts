@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-import indexRouter from './routes';
+import indexRouter from '../routes';
 import createError from 'http-errors';
-import app from './app';
+import app from '../app';
 import debug from  'debug';
 ('week-3:server');
 import http from 'http';

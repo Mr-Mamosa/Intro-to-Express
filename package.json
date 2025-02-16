@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js"
-  },
+  "build": "tsc",
+  "start": "yarn build && node dist/index.js"
+}
+,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@popperjs/core": "^2.11.8",
@@ -26,6 +28,10 @@
     "@types/http-errors": "^2.0.4",
     "@types/jquery": "^3.5.32",
     "@types/morgan": "^1.9.9",
-    "@types/node": "^22.13.1"
+    "@types/node": "^22.13.1",
+    "grunt": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
